@@ -52,7 +52,7 @@ body {
 }
 
 .hero {
-  background: url('https://github.com/magnifly01/envied/blob/main/images/Depth%206,%20Frame%200.png?raw=true') center/cover no-repeat;
+  background: url('/images/Depth%206,%20Frame%200.png?raw=true') center/cover no-repeat;
   padding: 120px 20px;
   text-align: center;
   color: white;
