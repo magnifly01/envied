@@ -1,27 +1,127 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Мой первый сайт</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            text-align: center;
-            padding: 100px;
-        }
-        h1 {
-            color: #333;
-        }
-        a {
-            color: blue;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerBoost</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Привет, мир!</h1>
-    <p>Это мой первый сайт без конструктора 😊</p>
-    <a href="https://chat.openai.com/">Перейти в ChatGPT</a>
+  <header class="navbar">
+    <div class="logo">CareerBoost</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="actions">
+      <button class="btn-outline">Log In</button>
+      <button class="btn-primary">Sign Up</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Boost Your Career with AI-Powered Insights</h1>
+      <p>CareerBoost leverages advanced AI to analyze your resume, skills, and market trends, providing recommendations to enhance your career competitiveness.</p>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <h2>Key Features</h2>
+    <div class="feature-grid">
+      <div class="feature-box">
+        <h3>Resume Analysis</h3>
+        <p>Get detailed feedback on your resume, including areas for improvement and optimization for specific job roles.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Skill Enhancement</h3>
+        <p>Identify in-demand skills and receive personalized learning paths to acquire them.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Market Insights</h3>
+        <p>Stay ahead of the curve with real-time data on industry trends, salary benchmarks, and job market demands.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <h2>Success Stories</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/120" alt="Elena Petrova">
+        <p><strong>Elena Petrova</strong><br>“CareerBoost helped me tailor my resume to the specific requirements of my dream job, and I landed an interview within weeks!”</p>
+      </div>
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/120" alt="Dmitri Ivanov">
+        <p><strong>Dmitri Ivanov</strong><br>“The skill enhancement recommendations were spot-on. I focused on the suggested areas and saw a significant improvement in my job applications.”</p>
+      </div>
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/120" alt="Anna Smirnova">
+        <p><strong>Anna Smirnova</strong><br>“The market insights provided by CareerBoost gave me a competitive edge. I understood the industry trends and positioned myself accordingly.”</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="comparison">
+    <h2>Why Choose CareerBoost?</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>CareerBoost</th>
+          <th>Competitor A</th>
+          <th>Competitor B</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>AI-Powered Analysis</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Limited</td>
+        </tr>
+        <tr>
+          <td>Personalized Recommendations</td>
+          <td>Yes</td>
+          <td>Limited</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>Real-Time Market Data</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td>User-Friendly Interface</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to Take the Next Step?</h2>
+    <button class="btn-primary">Get Started Today</button>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="footer-social">
+      <a href="#">🐦</a>
+      <a href="#">📘</a>
+      <a href="#">💼</a>
+    </div>
+    <p>&copy; 2024 CareerBoost. All rights reserved.</p>
+  </footer>
 </body>
 </html>
