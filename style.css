@@ -20,8 +20,10 @@ body {
 }
 
 .logo {
+    background: url('images/1.png') center/cover no-repeat;
   font-size: 1.5em;
   font-weight: bold;
+  
 }
 
 .navbar nav a {
@@ -52,7 +54,7 @@ body {
 }
 
 .hero {
-  background: url('/images/Depth%206,%20Frame%200.png?raw=true') center/cover no-repeat;
+  background: url('images/2.png') center/cover no-repeat;
   padding: 120px 20px;
   text-align: center;
   color: white;
